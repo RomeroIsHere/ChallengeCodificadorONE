@@ -1,35 +1,24 @@
 #mainContainerFrame{
-    width: 120px;
+    align-content: center;
+    width: 100%;
     height: 100%;
-   
-    background: #ff1515;
+    position: absolute;
+    top: 40px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
+    display: inline-flex;
 }
 
 #leftSider{
     float: left;
+    width: 50%;
     background:#0A3871;
 
 }
-#encoded{
-    /* Rectangle 1 */
-align-content: center;
-position: absolute;
 
-height: 90%;
-left: 1000px;
-top: 40px;
-
-/* White */
-background: #FFFFFF;
-/* shadow */
-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
-border-radius: 32px;
-
-}
 #foot{
     float: left;
+    bottom: 5%;
     height: 60px;
 }
 #text{
@@ -121,40 +110,59 @@ flex-grow: 1;
 
 }
 #logo{
-    width: Fixed (120px);
-    height: Fixed (48px);
-    top: 40px;
-    left: 40px;
-    gap: 40px;
+width: Fixed (120px);
+height: Fixed(48px);
+top: 40px;
+left: 40px;
+gap: 40px;
 }
 #frameFive{
-    /* Frame 5 */
+/* Frame 5 */
 
 /* Auto layout */
-display: flex;
-flex-direction: column;
-align-items: flex-start;
+
 padding: 0px;
 gap: 16px;
-margin: 20px;
-position: absolute;
-width: 336px;
-height: 122px;
-left: 1032px;
-top: 619px;
-   /* Ningún mensaje fue encontrado */
+margin: 50%,50%,50px,0px;
+bottom: 20px;
 
-   width: 336px;
-   height: 58px;
-   font-weight: 700;
-   font-size: 24px;
-   line-height: 120%;
-   /* or 29px */
-   text-align: center;
-   vertical-align: center;
-   
-   /* Gray/gray-500 */
-   color: #343A40;
+/* Ningún mensaje fue encontrado */
+
+width: 336px;
+height: 58px;
+
+font-family: 'calibri';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+text-align: center;
+
+/* Gray/gray-500 */
+color: #343A40;
+
+
+/* Inside auto layout */
+
+    
 }
 
+#encoded{
+    /* Rectangle 1 */
+align-content: center;
+position: absolute;
+min-width: 30%;
+max-width: 50%;
+height: 90%;
+right: 10%;
+top: 40px;
+display: inline;
 
+/* White */
+background: #FFFFFF;
+/* shadow */
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.5);
+border-radius: 32px;
+
+}

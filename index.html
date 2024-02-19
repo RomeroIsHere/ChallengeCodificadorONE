@@ -8,22 +8,13 @@
 </head>
 <body>
     <img src="Img/logo.svg" alt="Logo de Alura" id="logo">
-    <div id="mainContainerFrame">
-        
+    <br>
         <div id="leftSider">
-            
-            <div id="textAdder">
-                <textarea name="encoder" id="text" cols="30" rows="10">
-
+                <textarea name="encoder" id="text" placeholder="Ingrese el texto aqui">
                 </textarea>
-                Ingrese el Texto Aqui
-            </div>        
             <div id="foot">
-                <div>
-                    <img src="Img/information.svg" alt="Logo información" style="height: 16;width: 16;">
-                    
-                    Solo letras minúsculas y sin acentos
-                </div>
+                <img src="Img/information.svg" alt="Logo información" style="height: 16;width: 16;">
+                Solo letras minúsculas y sin acentos            
                 <div  id="framedButton">
                     <button id="encrypt" onclick="buttonEncrypt();">
                         Encriptar
@@ -35,8 +26,9 @@
             </div>
         </div>
         <div id="encoded">
-            <img src="Img/man.svg" alt="Persona viendo un diamante">
             <div id="frameFive">
+            <img src="Img/man.svg" alt="Persona viendo un diamante">
+            
                 <h2>
                     Ningún mensaje fue encontrado
                 </h2>
@@ -45,7 +37,7 @@
             </div>
         </div>
         
-    </div>
+    
     <script src="Codificador.js"></script>
 </body>
 </html>
