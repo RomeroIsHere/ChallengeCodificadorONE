@@ -25,12 +25,14 @@ function decrypt(input){
 }
 
 function buttonEncrypt(){
-    
-    document.getElementById("encoded").innerHTML=encrypt(textArea.value);
-
+    if(textArea.value!=""){
+    document.getElementById("frameFive").innerHTML=encrypt(textArea.value);
+    }
 }
 function buttonDecrypt(){
-    
-    document.getElementById("encoded").innerHTML=decrypt(textArea.value);
-
+    if(textArea.value!=""){
+    document.getElementById("frameFive").innerHTML=decrypt(textArea.value);
+    }else{
+        alert("No input");
+    }
 }

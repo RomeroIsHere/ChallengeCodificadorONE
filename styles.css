@@ -14,34 +14,54 @@
     width: 50%;
     background:#0A3871;
 
+    align-items: center;
+    padding:2px;
+
 }
 
 #foot{
+    align-content: center;
     float: left;
     bottom: 5%;
     height: 60px;
 }
 #text{
-    border-radius: 12px;
+    width: 100%;
+    
 }
 #framedButton{
-    display: flex;
+    display: inline-flex;
     height: 60px;
     width: fit-content;
+    margin: 2px;
+}
+button{
+    padding: 0px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    font-family: 'Inter',sans-serif,Impact, Haettenschweiler, 'Arial Narrow Bold', ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+#copy{
+   
+    /* Dark blue/dark-blue-300 */
+    background: #0A3871;
+    border-radius: 24px;
+    
+    /* White */
+    color: #FFFFFF;
+    
 }
 #encrypt{
-    /* Button */
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
-
-width: 328px;
-height: 67px;
-margin-right: 16px;
+margin-right: 5px;
 /* Dark blue/dark-blue-300 */
 background: #0A3871;
 border-radius: 24px;
@@ -51,15 +71,6 @@ flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Button */
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-
 /* White */
 color: #FFFFFF;
 }
@@ -68,47 +79,18 @@ color: #FFFFFF;
 
 box-sizing: border-box;
 
-/* Auto layout */
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
-
-width: 328px;
-height: 67px;
-
 /* Light gray */
 background: #D8DFE8;
 /* Dark blue/dark-blue-300 */
 border: 1px solid #0A3871;
 border-radius: 24px;
 
-/* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-
-
-/* Button */
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-
 /* Dark blue/dark-blue-300 */
 color: #0A3871;
 
-
-/* Inside auto layout */
-flex: none;
-order: 0;
-flex-grow: 1;
-
 }
+
+
 #logo{
 width: Fixed (120px);
 height: Fixed(48px);
@@ -121,9 +103,8 @@ gap: 40px;
 
 /* Auto layout */
 
-padding: 0px;
-gap: 16px;
-margin: 50%,50%,50px,0px;
+padding: 70px 0;
+margin: auto;
 bottom: 20px;
 
 /* Ningún mensaje fue encontrado */
@@ -131,7 +112,7 @@ bottom: 20px;
 width: 336px;
 height: 58px;
 
-font-family: 'calibri';
+font-family: 'calibri',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 24px;
@@ -150,7 +131,7 @@ color: #343A40;
 
 #encoded{
     /* Rectangle 1 */
-align-content: center;
+
 position: absolute;
 min-width: 30%;
 max-width: 50%;
